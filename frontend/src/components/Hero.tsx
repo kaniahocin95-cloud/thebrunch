@@ -23,7 +23,7 @@ export const Hero = () => {
         <p className="text-3xl md:text-6xl mb-4 font-light font-bold" style={{ fontFamily: '"Modern Antiqua", serif' }}>
           s'occupe de tous vos évènements
         </p>
-        <p className="text-lg md:text-xl mb-8 text-white/90 max-w-2xl mx-auto">
+        <p className="text-xl md:text-2xl mb-8 text-white/90 max-w-2xl mx-auto" style={{ fontFamily: '"Noto Sans JP", sans-serif' }}>
           Traiteur Oriental basé à Strasbourg (67), spécialiste des événements
           privés et professionnels
         </p>
