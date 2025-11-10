@@ -171,17 +171,7 @@ const AdminLogin = () => {
                 )}
               </Button>
             </form>
-
-            {/* Demo Credentials */}
-            <div className="mt-6 p-4 bg-gray-50 rounded-lg">
-              <p className="text-xs text-gray-600 mb-2 font-medium">
-                Identifiants de démonstration :
-              </p>
-              <div className="space-y-1 text-xs text-gray-500">
-                <p><strong>Username:</strong> superadmin</p>
-                <p><strong>Password:</strong> SuperAdmin123!</p>
-              </div>
-            </div>
+            
           </CardContent>
         </Card>
 
