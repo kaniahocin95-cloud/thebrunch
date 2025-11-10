@@ -73,7 +73,31 @@ CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
 \`\`\`
 
-## 📱 Utilisation
+## � Déploiement
+
+### Frontend (Netlify)
+1. **Connecter à GitHub** : Connectez votre repository à Netlify
+2. **Configuration** :
+   - Build command: `cd frontend && npm ci && npm run build`
+   - Publish directory: `frontend/dist`
+   - Node version: `18`
+
+3. **Variables d'environnement** :
+   ```
+   VITE_API_URL=https://your-backend-url.com
+   VITE_ENVIRONMENT=production
+   ```
+
+4. **Domaine personnalisé** (optionnel) :
+   - Configurez votre domaine dans les paramètres Netlify
+   - SSL automatique inclus
+
+### Backend (Recommendation: Railway/Render)
+1. **Variables d'environnement** requises
+2. **Base de données MongoDB** (MongoDB Atlas recommandé)
+3. **Configuration CORS** pour votre domaine frontend
+
+## �📱 Utilisation
 
 ### URLs
 - **Frontend**: http://localhost:8080
